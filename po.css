@@ -24,6 +24,12 @@ img{
     border-radius: 100%;
     border-color: black;
 }
+a{
+    text-decoration: none;
+}
+a:link{color: skyblue}
+a:hover{color: plum;}
+a:active{color: black;}
 #bio,#work{
     background-color: #f4f4f4;}
     
