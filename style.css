@@ -12,11 +12,13 @@ section{
 }
 
 p{
+    word-spacing: 5px;
     font-family: Arial, sans-serif;
     text-align: center;
 }
 h1 , h2 {
     color: #333;
+    
 }
 img{
     width:  300px;
@@ -25,10 +27,12 @@ img{
     border-color: black;
 }
 a{
-    text-decoration: none;
+    
+    text-decoration:none;
 }
 a:link{color: skyblue}
 a:hover{color: plum;}
+a:visited{color: gray;}
 a:active{color: black;}
 #bio,#work{
     background-color: #f4f4f4;}
